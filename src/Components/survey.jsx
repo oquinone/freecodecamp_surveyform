@@ -5,7 +5,6 @@ class Survey extends Component {
     // state = {  }
     render() { 
         const desc = "Thank you for taking the time to fill out this survey."
-        
         return (
             <div id="survey-page">
                 <section id="welcome">
@@ -34,7 +33,7 @@ class Survey extends Component {
                             placeholder="Enter email"
                             required/><br/>
                         
-                        <label for="age" id="number-label">Age (Optional)</label><br/>
+                        <label for="age" id="number-label">Age <small>(Optional)</small> </label><br/>
                         <input
                             type="number"
                             id="number"
@@ -45,19 +44,21 @@ class Survey extends Component {
                         
                         <label id="dropdown-label">Do coworkers keep a 6 feet distance while working?</label><br/>
                         <select id="dropdown">
-                            <option value="Music Festival">Yes, everyone is very cautious and aware.</option>
-                            <option value="Travel">Yes, but some people don't care.</option>
-                            <option value="Party W/ Friends">Yes, but some people don't have a mask on.</option>
-                            <option value="Spend more time outside">Sometimes its hard to tell.</option>
-                            <option value="Visit Family">No and the managers don't say anything.</option>
-                            <option value="Dating! duh">Sometimes becuase managers enforce it.</option>
-                            <option value="start a business">No once cares we are just working.</option>
-                            <option value="Nothing">I don't pay attention.</option>
+                            {/* <div> */}
+                                <option value="Music Festival">Yes, everyone is very cautious and aware.</option>
+                                <option value="Travel">Yes, but some people don't care.</option>
+                                <option value="Party W/ Friends">Yes, but some people don't have a mask on.</option>
+                                <option value="Spend more time outside">Sometimes its hard to tell.</option>
+                                <option value="Visit Family">No and the managers don't say anything.</option>
+                                <option value="Dating! duh">Sometimes becuase managers enforce it.</option>
+                                <option value="start a business">No once cares we are just working.</option>
+                                <option value="Nothing">I don't pay attention.</option>
+                            
                         </select><br/>
 
                         <div id="btns">
+                            <p id="best-mf">Is the break room clean and do people mantain a 6 feet distance?</p>
                             <div id="radio">
-                                <p id="best-mf">Is the break room clean and do people mantain a 6 feet distance?</p>
                                 <input type="radio" name="raiod-btn" value="Burning_Man"/>
                                 <label id="Burning_Man" for="Burning_Man">Yes, people try there best.</label><br/>
                                 <input type="radio" name="raiod-btn" value="EDC_Las_Vegas"/>
@@ -66,8 +67,8 @@ class Survey extends Component {
                                 <label id="Ultra" name="raiod-btn">Not clean and 6 feet of distance is not applied.</label><br/>
                             </div>
 
+                            <p id="Fav-djs">How satisfied are you with your job?</p>
                             <div id="djs">
-                                <p id="Fav-djs">How satisfied are you with your job?</p>
                                 <input type="checkbox" name="Deadmau5" value="Deadmau5"/>
                                 <label for="Deadmau5">I love it!</label><br/>
                                 <input type="checkbox" name="W&W" value="W&W"/>

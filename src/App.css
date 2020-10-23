@@ -33,7 +33,7 @@
 }
 
 #name-label, #email-label, #number-label, #dropdown-label, #best-mf, #Fav-djs, #comments{
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   padding-left: 5px;
 }
@@ -56,15 +56,15 @@
   line-height: 1.5em;
 }
 
+
 #btns{
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
 }
 
-#dropdown{
-  margin-bottom: 10px;
-}
+
+
 
 #dropdown{
   width: 103%;
@@ -74,8 +74,18 @@
   font-size: 1em;
 }
 
+#radio, #djs{
+  margin-left: 15px;
+}
+
+#radio input, #djs input{
+  width: 25px;
+  height: 25px;
+}
+
 #radio label{
   font-size: 20px;
+  padding-left: 2px;
 }
 
 #comments{
