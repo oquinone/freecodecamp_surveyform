@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/freecodecamp_surveyform/static/css/main.59d58582.chunk.css",
+    "main.js": "/freecodecamp_surveyform/static/js/main.f4ec07d0.chunk.js",
+    "main.js.map": "/freecodecamp_surveyform/static/js/main.f4ec07d0.chunk.js.map",
+    "runtime-main.js": "/freecodecamp_surveyform/static/js/runtime-main.1579bc69.js",
+    "runtime-main.js.map": "/freecodecamp_surveyform/static/js/runtime-main.1579bc69.js.map",
+    "static/js/2.82a7bed4.chunk.js": "/freecodecamp_surveyform/static/js/2.82a7bed4.chunk.js",
+    "static/js/2.82a7bed4.chunk.js.map": "/freecodecamp_surveyform/static/js/2.82a7bed4.chunk.js.map",
+    "index.html": "/freecodecamp_surveyform/index.html",
+    "precache-manifest.31efd9bcbd265b027b45207a4c9dc449.js": "/freecodecamp_surveyform/precache-manifest.31efd9bcbd265b027b45207a4c9dc449.js",
+    "service-worker.js": "/freecodecamp_surveyform/service-worker.js",
+    "static/css/main.59d58582.chunk.css.map": "/freecodecamp_surveyform/static/css/main.59d58582.chunk.css.map",
+    "static/js/2.82a7bed4.chunk.js.LICENSE.txt": "/freecodecamp_surveyform/static/js/2.82a7bed4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1579bc69.js",
+    "static/js/2.82a7bed4.chunk.js",
+    "static/css/main.59d58582.chunk.css",
+    "static/js/main.f4ec07d0.chunk.js"
+  ]
+}
